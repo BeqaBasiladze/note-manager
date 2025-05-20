@@ -1,13 +1,23 @@
+## Ignore build output
 bin/
 obj/
+out/
+
+## Ignore VS and Rider files
 .vs/
-.vscode/
-*.user
+.idea/
 *.suo
+*.user
+
+## Ignore logs, databases
 *.log
 *.db
-*.sqlite
 *.mdf
 *.ldf
 *.bak
-*.tmp
+
+## VS Code
+.vscode/
+
+## EF Core migrations 
+Migrations/
